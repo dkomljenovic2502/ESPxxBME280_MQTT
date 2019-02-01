@@ -1,0 +1,1121 @@
+[
+    {
+        "id": "f4fa6c24.910e08",
+        "type": "tab",
+        "label": "Main",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "c46e31f8.adf52",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "25ebf31f.c1c554",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Glavni 1",
+        "icon": "",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e99a052e.c1ce28",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Kuca",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "b81d075f.72ad6",
+        "type": "ui_group",
+        "z": "",
+        "name": "Temperatura",
+        "tab": "770b1349.2559ac",
+        "disp": true,
+        "width": "13",
+        "collapse": false
+    },
+    {
+        "id": "61c6471d.6f6ce",
+        "type": "ui_group",
+        "z": "",
+        "name": "Kuca 2",
+        "tab": "25ebf31f.c1c554",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "dbd593ed.b1993",
+        "type": "ui_group",
+        "z": "",
+        "name": "Kuca 1",
+        "tab": "25ebf31f.c1c554",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "aabc0654.dfb098",
+        "type": "ui_group",
+        "z": "",
+        "name": "Balkon",
+        "tab": "25ebf31f.c1c554",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "770b1349.2559ac",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Temperature",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ecd17238.ac0f9",
+        "type": "ui_group",
+        "z": "",
+        "name": "Tweets",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "2e875409.2e9d64",
+        "type": "ui_group",
+        "z": "",
+        "name": "Test",
+        "tab": "",
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "256aa4f4.f398e4",
+        "type": "ui_group",
+        "z": "",
+        "name": "Test",
+        "tab": "",
+        "disp": true,
+        "width": "6"
+    },
+    {
+        "id": "4d123b0e.1b65cc",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/kuca1/temperature",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 110,
+        "y": 80,
+        "wires": [
+            [
+                "b38030a4.7e44b8",
+                "d38b0071.dd497",
+                "34ee0292.abaa1e"
+            ]
+        ]
+    },
+    {
+        "id": "29ce0b99.a5d614",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/kuca1/humidity",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 100,
+        "y": 40,
+        "wires": [
+            [
+                "cc6ea0ed.d96128"
+            ]
+        ]
+    },
+    {
+        "id": "cc6ea0ed.d96128",
+        "type": "ui_gauge",
+        "z": "f4fa6c24.910e08",
+        "name": "Kuca1 Vlaga",
+        "group": "dbd593ed.b1993",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b3d9",
+            "#0073e6",
+            "#001bd7"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "x": 290,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "c5e9aeea.f93da8",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/kuca1/pressure",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 100,
+        "y": 160,
+        "wires": [
+            [
+                "9c6ed74c.441b28",
+                "d73ec1ef.a3f198"
+            ]
+        ]
+    },
+    {
+        "id": "9c6ed74c.441b28",
+        "type": "ui_chart",
+        "z": "f4fa6c24.910e08",
+        "name": "Kuca1 Tlak Graf",
+        "group": "dbd593ed.b1993",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "Tlak ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "b38030a4.7e44b8",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "dbd593ed.b1993",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "Kuca1 Tempetratura",
+        "label": "",
+        "format": "<font size = 7>{{msg.payload}} °C",
+        "layout": "col-center",
+        "x": 320,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "d38b0071.dd497",
+        "type": "ui_chart",
+        "z": "f4fa6c24.910e08",
+        "name": "Kuca1 Temperatura Graf",
+        "group": "dbd593ed.b1993",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d73ec1ef.a3f198",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "dbd593ed.b1993",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Kuca1 Tlak",
+        "label": "",
+        "format": "<font size = 7>{{msg.payload}} hPa",
+        "layout": "col-center",
+        "x": 290,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "1f8b61aa.72afbe",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/balkon/temperature",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "1fd2e014.09eba",
+                "bb26d511.dc11a8",
+                "423bf378.48964c"
+            ]
+        ]
+    },
+    {
+        "id": "5bf5c9f7.6e7d6",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/balkon/humidity",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 100,
+        "y": 260,
+        "wires": [
+            [
+                "30a06428.a737a4"
+            ]
+        ]
+    },
+    {
+        "id": "30a06428.a737a4",
+        "type": "ui_gauge",
+        "z": "f4fa6c24.910e08",
+        "name": "Vlaga Balkon",
+        "group": "aabc0654.dfb098",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b3d9",
+            "#0073e6",
+            "#001bd7"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "x": 310,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bd736641.a79068",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/balkon/pressure",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 100,
+        "y": 380,
+        "wires": [
+            [
+                "e94c49.55c55bb8",
+                "15eec10f.a2838f"
+            ]
+        ]
+    },
+    {
+        "id": "e94c49.55c55bb8",
+        "type": "ui_chart",
+        "z": "f4fa6c24.910e08",
+        "name": "Balkon Tlak Graf",
+        "group": "aabc0654.dfb098",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "Tlak ",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 330,
+        "y": 420,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1fd2e014.09eba",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "aabc0654.dfb098",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "Balkon Tempetratura",
+        "label": "",
+        "format": "<font size = 7>{{msg.payload}} °C",
+        "layout": "col-center",
+        "x": 340,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "bb26d511.dc11a8",
+        "type": "ui_chart",
+        "z": "f4fa6c24.910e08",
+        "name": "Balkon Temperatura Graf",
+        "group": "aabc0654.dfb098",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 350,
+        "y": 340,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "15eec10f.a2838f",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "aabc0654.dfb098",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Balkon Tlak",
+        "label": "",
+        "format": "<font size = 7>{{msg.payload}} hPa",
+        "layout": "col-center",
+        "x": 310,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "70ea8452.900ed4",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/kuca2/temperature",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "1a69e467.aab18c",
+                "ec5222b5.f7de2",
+                "d3294391.8069f"
+            ]
+        ]
+    },
+    {
+        "id": "c8166fe9.fa6f1",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/kuca2/humidity",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 540,
+        "y": 40,
+        "wires": [
+            [
+                "9e311cf1.9a7ef"
+            ]
+        ]
+    },
+    {
+        "id": "9e311cf1.9a7ef",
+        "type": "ui_gauge",
+        "z": "f4fa6c24.910e08",
+        "name": "Kuca2 Vlaga",
+        "group": "61c6471d.6f6ce",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b3d9",
+            "#0073e6",
+            "#001bd7"
+        ],
+        "seg1": "33",
+        "seg2": "66",
+        "x": 730,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "e5039281.e9fc68",
+        "type": "mqtt in",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "/kuca2/pressure",
+        "qos": "2",
+        "broker": "c46e31f8.adf52",
+        "x": 540,
+        "y": 160,
+        "wires": [
+            [
+                "bf115724.a1f88",
+                "66818f36.df6d28"
+            ]
+        ]
+    },
+    {
+        "id": "bf115724.a1f88",
+        "type": "ui_chart",
+        "z": "f4fa6c24.910e08",
+        "name": "Kuca2 Tlak Graf",
+        "group": "61c6471d.6f6ce",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "label": "Tlak",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 740,
+        "y": 200,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1a69e467.aab18c",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "61c6471d.6f6ce",
+        "order": 1,
+        "width": "6",
+        "height": "1",
+        "name": "Kuca2 Tempetratura",
+        "label": "",
+        "format": "<font size = 7>{{msg.payload}} °C",
+        "layout": "col-center",
+        "x": 760,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ec5222b5.f7de2",
+        "type": "ui_chart",
+        "z": "f4fa6c24.910e08",
+        "name": "Kuca2 Temperatura Graf",
+        "group": "61c6471d.6f6ce",
+        "order": 4,
+        "width": "0",
+        "height": "0",
+        "label": "Temperatura",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "x": 770,
+        "y": 120,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "66818f36.df6d28",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "61c6471d.6f6ce",
+        "order": 2,
+        "width": "6",
+        "height": "1",
+        "name": "Kuca2 Tlak",
+        "label": "",
+        "format": "<font size = 7>{{msg.payload}} hPa",
+        "layout": "col-center",
+        "x": 730,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "7cdd8323.7ec41c",
+        "type": "ui_template",
+        "z": "f4fa6c24.910e08",
+        "group": "b81d075f.72ad6",
+        "name": "FontSizeTemperature CSS",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n.temp1 {\n    font-size: 105px !important;\n    color:  #f4d03f ;\n    align-items: center;\n    justify-content: end;\n},\n</style>\n<style>\n.temp2 {\n    font-size: 105px !important;\n    color:   #f7f9f9;\n    align-items: center;\n    justify-content: end;\n},\n</style>\n<style>\n.centerContain {\n  height: 10em;\n  display: flex;\n  align-items: center;\n  justify-content: end; \n}\n</style>\n<style>\n.time {\n    font-size: 120px !important;\n    align-items: center;\n    justify-content: end;\n},\n</style>\n<style>\n.icon {\n    font-size: 80px !important;\n    color:  #f1948a;\n    align-items: center;\n    justify-content: end;\n},\n</style>\n<style>\n.tempFore {\n    font-size: 65px !important;\n    color:   #f7f9f9;\n    align-items: center;\n    justify-content: end;\n},\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "templateScope": "local",
+        "x": 1040,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "85ff3874.053bb",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "b81d075f.72ad6",
+        "order": 1,
+        "width": "13",
+        "height": "2",
+        "name": "Vrijeme",
+        "label": "",
+        "format": "<div class=\"time\">{{msg.payload}}",
+        "layout": "row-center",
+        "x": 400,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "eca3786.3fbd488",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "b81d075f.72ad6",
+        "order": 2,
+        "width": "13",
+        "height": "2",
+        "name": "VrijemeRi",
+        "label": "",
+        "format": "<div class=\"temp2\">{{msg.payloadTemp}}°&nbsp</font size><i class=\"fa-4x wi wi-owm-{{msg.payload}} icon\"></i>",
+        "layout": "row-center",
+        "x": 580,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "33f2b515.5d6ec2",
+        "type": "inject",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 500,
+        "wires": [
+            [
+                "120f641d.c0c5e4"
+            ]
+        ]
+    },
+    {
+        "id": "120f641d.c0c5e4",
+        "type": "moment",
+        "z": "f4fa6c24.910e08",
+        "name": "Format",
+        "topic": "",
+        "input": "payload",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "HH:mm",
+        "locale": "hr_HR",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/Zagreb",
+        "x": 260,
+        "y": 500,
+        "wires": [
+            [
+                "85ff3874.053bb"
+            ]
+        ]
+    },
+    {
+        "id": "85032fc7.06238",
+        "type": "inject",
+        "z": "f4fa6c24.910e08",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 110,
+        "y": 560,
+        "wires": [
+            [
+                "5a8690ec.f9f858",
+                "58fbd61.3d209a8"
+            ]
+        ]
+    },
+    {
+        "id": "ae8f1996.844c58",
+        "type": "ui_template",
+        "z": "f4fa6c24.910e08",
+        "group": "b81d075f.72ad6",
+        "name": "Load CSS",
+        "order": 6,
+        "width": "0",
+        "height": "0",
+        "format": "<link rel=\"stylesheet\" href=\"/home/pi/.node-red/modification/weather-icons-lite/css/weather-icons-lite.min.css\">\n<style>\n    .nr-dashboard-theme-dark ui-card-panel {\n \tbackground-color: #222;\n \toutline: 1px solid #cccccc;\n \t  }\n</style>\n",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "templateScope": "local",
+        "x": 990,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5a8690ec.f9f858",
+        "type": "http request",
+        "z": "f4fa6c24.910e08",
+        "name": "OpenWeather API",
+        "method": "GET",
+        "ret": "txt",
+        "url": "http://api.openweathermap.org/data/2.5/weather?q=Rijeka,HR&units=metric&APPID=CHANGEME",
+        "tls": "",
+        "x": 290,
+        "y": 560,
+        "wires": [
+            [
+                "62de8d41.cfc8fc"
+            ]
+        ]
+    },
+    {
+        "id": "62de8d41.cfc8fc",
+        "type": "function",
+        "z": "f4fa6c24.910e08",
+        "name": "Temp",
+        "func": "// Parse OpenWeatherMap JSON answer\nvar weather=JSON.parse(msg.payload);\n \n// Create string with embedded data\nvar newMsg = {payload:weather.weather[0].icon, payloadTemp: weather.main.temp};\n\n// Return formatted message string\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 450,
+        "y": 560,
+        "wires": [
+            [
+                "eca3786.3fbd488"
+            ]
+        ]
+    },
+    {
+        "id": "9819ac4d.eade28",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "b81d075f.72ad6",
+        "order": 4,
+        "width": "13",
+        "height": "3",
+        "name": "Temperature",
+        "label": "",
+        "format": "<div class=\"temp1\">{{msg.payloadBalkon}}°/{{msg.payloadKuca1}}°/{{msg.payloadKuca2}}°",
+        "layout": "row-center",
+        "x": 910,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "938192bf.dcd0f",
+        "type": "http request",
+        "z": "f4fa6c24.910e08",
+        "name": "ForecastW",
+        "method": "GET",
+        "ret": "obj",
+        "url": "http://api.openweathermap.org/data/2.5/forecast?q=Rijeka,HR&units=metric&APPID=CHANGEME",
+        "tls": "",
+        "x": 390,
+        "y": 600,
+        "wires": [
+            [
+                "6619ba9c.5ca394"
+            ]
+        ]
+    },
+    {
+        "id": "6619ba9c.5ca394",
+        "type": "function",
+        "z": "f4fa6c24.910e08",
+        "name": "Temp",
+        "func": "// Create string with embedded data\nvar date1 = new Date(msg.payload.list[1].dt*1000);\nvar hours1 = date1.getHours();\nvar date2 = new Date(msg.payload.list[2].dt*1000);\nvar hours2 = date2.getHours();\n\nvar newMsg = {\n    payload1:msg.payload.list[0].weather[0].icon, payloadTemp1:  Math.round(msg.payload.list[0].main.temp), payloadTime1:hours1,\n    payload2:msg.payload.list[1].weather[0].icon, payloadTemp2:  Math.round(msg.payload.list[1].main.temp), payloadTime2:hours2\n};\n\n// Return formatted message string\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 530,
+        "y": 600,
+        "wires": [
+            [
+                "36055adf.1918c6"
+            ]
+        ]
+    },
+    {
+        "id": "58fbd61.3d209a8",
+        "type": "delay",
+        "z": "f4fa6c24.910e08",
+        "name": "d1",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 250,
+        "y": 600,
+        "wires": [
+            [
+                "938192bf.dcd0f"
+            ]
+        ]
+    },
+    {
+        "id": "36055adf.1918c6",
+        "type": "ui_text",
+        "z": "f4fa6c24.910e08",
+        "group": "b81d075f.72ad6",
+        "order": 3,
+        "width": "13",
+        "height": "1",
+        "name": "VrijemeRiF",
+        "label": "",
+        "format": "<div class=\"tempFore\">{{msg.payloadTime1}}h:{{msg.payloadTemp1}}°&nbsp</font size><i class=\"fa-4x wi wi-owm-{{msg.payload1}} icon\"></i>&nbsp{{msg.payloadTime2}}h:{{msg.payloadTemp2}}°&nbsp</font size>",
+        "layout": "row-center",
+        "x": 670,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "f480d7a1.9b7a1",
+        "type": "function",
+        "z": "f4fa6c24.910e08",
+        "name": "ToOnePayload",
+        "func": "if (msg.payloadBalkon){\n    //context.payloadBalkon = msg.payloadBalkon;\n    global.set(\"valuePayloadBalkon\", msg.payloadBalkon);\n}\n\nif (msg.payloadKuca1){\n    global.set(\"valuePayloadKuca1\", msg.payloadKuca1)\n    //context.payloadKuca = msg.payloadKuca;\n}\n\nif (msg.payloadKuca2){\n    global.set(\"valuePayloadKuca2\", msg.payloadKuca2)\n    //context.payloadKuca = msg.payloadKuca;\n}\n\n\nvar newMsg = {payloadBalkon:global.get(\"valuePayloadBalkon\"), payloadKuca1:global.get(\"valuePayloadKuca1\"), payloadKuca2:global.get(\"valuePayloadKuca2\")};\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 740,
+        "y": 280,
+        "wires": [
+            [
+                "9819ac4d.eade28"
+            ]
+        ]
+    },
+    {
+        "id": "423bf378.48964c",
+        "type": "calculator",
+        "z": "f4fa6c24.910e08",
+        "name": "B",
+        "inputMsgField": "payload",
+        "outputMsgField": "payloadBalkon",
+        "operation": "round",
+        "constant": "",
+        "x": 510,
+        "y": 300,
+        "wires": [
+            [
+                "f480d7a1.9b7a1"
+            ]
+        ]
+    },
+    {
+        "id": "d3294391.8069f",
+        "type": "calculator",
+        "z": "f4fa6c24.910e08",
+        "name": "K2",
+        "inputMsgField": "payload",
+        "outputMsgField": "payloadKuca2",
+        "operation": "round",
+        "constant": "",
+        "x": 510,
+        "y": 260,
+        "wires": [
+            [
+                "f480d7a1.9b7a1"
+            ]
+        ]
+    },
+    {
+        "id": "34ee0292.abaa1e",
+        "type": "calculator",
+        "z": "f4fa6c24.910e08",
+        "name": "K1",
+        "inputMsgField": "payload",
+        "outputMsgField": "payloadKuca1",
+        "operation": "round",
+        "constant": "",
+        "x": 510,
+        "y": 220,
+        "wires": [
+            [
+                "f480d7a1.9b7a1"
+            ]
+        ]
+    }
+]
